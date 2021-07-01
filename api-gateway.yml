@@ -14,7 +14,7 @@ zuul:
         customer:
             path: /api/customer-service/**
             service-id: customer-service
-            url: http://${hostname.server}:8080/
+            url: http://${hostname.server}:8088/
         product:
             path: /api/product-service/**
             service-id: product-service
