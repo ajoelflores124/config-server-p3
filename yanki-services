@@ -1,5 +1,5 @@
 server.port=8089
-#spring.application.name=customer-service
+#spring.application.name=yanki-service
 
 #spring.data.mongodb.host=localhost
 #spring.data.mongodb.port=27017
