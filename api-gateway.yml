@@ -28,8 +28,8 @@ zuul:
             service-id: representative-service
             url: http://${hostname.server}:8083/
         movement:
-            path: /api/withdrawal-service/**
-            service-id: withdrawal-service
+            path: /api/movement-service/**
+            service-id: movement-service
             url: http://${hostname.server}:8085/
         credit:
             path: /api/credit-service/**
