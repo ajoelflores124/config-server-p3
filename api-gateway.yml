@@ -36,15 +36,15 @@ zuul:
             service-id: credit-service
             url: http://${hostname.server}:8086/
         creditcard:
-            path: /api/creditcard-service
+            path: /api/creditcard-service/**
             service-id: creditcard-service
             url: http://${hostname.server}:8087/
         yanki:
-            path: /api/yanki-service
+            path: /api/yanki-service/**
             service-id: yanki-service
             url: http://${hostname.server}:8089/
         p2p:
-            path: /api/p2p-service
+            path: /api/p2p-service/**
             service-id: p2p-service
             url: http://${hostname.server}:8084/
         
